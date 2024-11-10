@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<i class="fas fa-[icon-name]"></i>
+
+</head>
+<body>
+  <div id="header">
+  <div class="container">
+    <nav>
+      <img src="Mainooo.png" alt="" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Software Developer</p>
+      <h1>Hii, I'm <span>Ananya</span><br> Yadav from Dr.Virendra Swarup Institute of Computer Studies</h1>
+    </div>
+  </div>
+  </div>
+
+  <!-------about-------- -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="AnanyaPortfolioPic.jpeg" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About me</h1>
+        <p>
+          “I’m Ananya Yadav, a passionate Software Engineering student skilled in Java, HTML, CSS, and JavaScript. With a strong foundation in web development, I focus on building user-centered, responsive applications. My background as a national-level athlete and kho-kho captain instilled in me the importance of teamwork and adaptability—qualities I bring to every project.”
+          </p>
+
+        <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+         <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+         <p class="tab-links" onclick="opentab('education')">Education</p>
+         <p class="tab-links" onclick="opentab('certification')">Certification</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills"><ul>
+          <li><span>Programming Language</span><br>C++ , JAVA</li>
+          <li><span>Web Technologies</span><br>HTML, CSS and Javascript</li>
+          <li><span>Database</span><br>MySql</li>
+        </ul></div>
+
+        <!-- <div class="tab-contents" id="experience"><ul>
+          <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+          <li><span>2019 - 2021</span><br>Team lead StarApp LLC.</li>
+          <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+          <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+        </ul></div> -->
+
+        <div class="tab-contents" id="education"><ul>
+          <li><span>2022-25</span><br>BCA from Dr. Virendra Swarup Institute of Computer Studies</li>
+          <li><span>2022</span><br>Intermediate from J.N.V Kanpur Nagar</li>
+          <li><span>2020</span><br>HighSchool from J.N.V Kanpur Nagar</li>
+        </ul></div>
+
+        <div class="tab-contents" id="certification"><ul>
+          <li><span>Core Java</span><br>under the guidance of SKDeft </li>
+          <li><span>HTML, CSS and Javascript</span><br>from Coursera Platform</li>
+        </ul></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- services-->
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-coffee"></i>
+        <h2>Java developer</h2>
+        <p>Expert in developing efficient backend solutions and applications using Core Java.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Front-end Developer</h2>
+        <p>Build responsive and visually appealing user interfaces for website and web apllication</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-database"></i>
+        <h2>Database Management</h2>
+        <p>Work with relational databses like MySql and Oracle for data storage and management.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!--- Portfolio - -->
+<!-- <div id="prtfolio">
+  <div class="container">
+  <h1 class="sub-title">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="ima" alt="">
+      <div class="layer">
+        <h3>Social Media App</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adanimi nesciunt quo obcaecati quod illo iste rem sit, architecto incidunt?
+        Placeat voluptatibus asperiores distinctio repudiandae, assumenda cupiditate! Similique aliquam optio earum odio  quidem e excepturi, nihil deleniti corrupti! Neque consequuntur voluptatem quod facilis alias exercitationem impedit officia blanditiis aperiam ipsa?</p>
+        <a href="#"></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="ima" alt="">
+    </div>
+    <div class="work">
+      <img src="ima" alt="">
+    </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- contact -->
+<div class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fas fa-paper-plane"></i>ananyayadav8542@gmail.com</p>
+        <p><i class="fas fa-phone"></i>7392915808</p>
+        <div class="social-icons">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="D:\mypersonalDoc\Ananyaresume.pdf" download  class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>  
+          <button type="submit" class="btn btn2">Submit</button>
+          
+        </form>
+        <span id="msg">Hello</span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Ananya. Made by <i class="fas fa-heart"></i> myself</p>
+  </div>
+</div>
+
+
+
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+</script>
+
+<!-- <form name="submit-to-google-sheet">
+   <input name="email" type="email" placeholder="Email" required> 
+  <button type="submit">Send</button>
+</form> -->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzi5rIAYJCz-zcfcyFYyPfAaOhFQ717LrP5TA0QAXu7iFjou1QjRbCecD1ELeUInzRX1Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent sucessfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
